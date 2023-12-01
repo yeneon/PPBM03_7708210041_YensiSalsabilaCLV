@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="5dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="20dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bg"
+                android:alpha="0.3"
+                app:tint="#C1000000" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bg"
+                android:layout_marginBottom="3dp"
+                android:layout_marginRight="3dp"/>
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/imganml"
+            android:layout_width="150dp"
+            android:layout_marginLeft="-20dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/kelinci"
+            android:padding="10dp"/>
+
+        <RelativeLayout
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bg_next"
+                android:alpha="0.3"
+                app:tint="#C1000000"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bg_next"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/next"
+                android:layout_marginLeft="10dp"
+                android:padding="-10dp"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="110dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginRight="30dp"
+                android:text="Kelinci"
+                android:id="@+id/txtNameAnml"
+                android:textAllCaps="true"
+                android:gravity="bottom"
+                android:paddingBottom="1dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/heran"
+                android:textSize="60dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/txtDesk"
+                android:text="Hewan pemilik telinga panjang yang khas."
+                android:textSize="15sp"
+                android:layout_marginRight="30dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
